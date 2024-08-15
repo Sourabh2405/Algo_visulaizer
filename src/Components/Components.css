@@ -1,0 +1,16 @@
+.grid{
+    display: flex;
+    flex-direction: column;
+}
+.gridrow{
+    display: flex;
+    height: 10px;
+}
+.rowcell{
+    display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+}
